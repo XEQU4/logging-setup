@@ -15,6 +15,8 @@ setup(
     long_description=readme(),
     long_description_content_type='text/markdown',
     url='https://github.com/XEQU4/logging-setup',
+    license='MIT',
+    license_files=['LICENSE'],
     packages=find_packages(),
     install_requires=['apscheduler>=3.11.3', 'colorama>=0.4.6'],
     classifiers=[

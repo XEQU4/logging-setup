@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/loggingsetup.svg)](https://pypi.org/project/loggingsetup/)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Code style](https://img.shields.io/badge/code%20style-PEP8-lightgrey.svg)](https://peps.python.org/pep-0008/)
 [![Built on](https://img.shields.io/badge/built%20on-logging-yellow.svg)](https://docs.python.org/3/library/logging.html)
 
@@ -29,6 +29,8 @@ Call `init_logging()` once, and the whole project gets colored console output, d
 - [APScheduler](https://pypi.org/project/APScheduler/)
 
 ## Installation
+
+Available on [PyPI](https://pypi.org/project/loggingsetup/). See [release 0.0.2](https://pypi.org/project/loggingsetup/0.0.2/).
 
 ```bash
 pip install loggingsetup
@@ -103,3 +105,7 @@ logging_setup/
 - The module name is calculated from the file path relative to the current working directory. Run your project from its root folder, so `app/bot.py` is shown as `app.bot`.
 - The entry script is shown as `main`, not `__main__`.
 - Old files are deleted only by the cleanup job, not by `backupCount`.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
